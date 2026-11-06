@@ -1,0 +1,59 @@
+body {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: #fffafc;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  padding: 15px;
+  background-color: pink;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+header p {
+  margin: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: purple;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-content {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.about-content img {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .about-content {
+    flex-direction: column;
+  }
+}
