@@ -1,11 +1,16 @@
 body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffafc;
+  color: #222;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
   max-width: 850px;
   margin: 40px auto;
   padding: 0 20px;
-  background-color: #fffafc;
-  color: #222;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
 }
 
 header {
@@ -56,4 +61,11 @@ img {
   .about-content {
     flex-direction: column;
   }
+}
+body {
+  font-family: "Source Sans 3", Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: "DM Serif Display", Georgia, serif;
 }
